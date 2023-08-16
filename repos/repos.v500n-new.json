@@ -2,7 +2,7 @@
     {
       "kernelSource": {
         "name": "Flashlm-V500N-New-KernelSU",
-        "repo": "https://github.com/konanguyen/android_kernel_lge_sm8150",
+        "repo": "https://github.com/anht3889/kernel_lge_sm8150_new",
         "branch": "main",
         "device": "V500N",
         "defconfig": "vendor/dragon_flash_defconfig"
