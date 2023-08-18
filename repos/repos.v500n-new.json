@@ -2,8 +2,8 @@
     {
       "kernelSource": {
         "name": "X2KernelSU",
-        "repo": "https://github.com/konanguyen/kernel_realme_sm6150",
-        "branch": "topaz",
+        "repo": "https://github.com/konanguyen/android_kernel_realme_sm6150",
+        "branch": "A13",
         "device": "RealmeX2",
         "defconfig": "X2_defconfig"
       },
