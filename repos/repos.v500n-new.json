@@ -1,11 +1,11 @@
 [
     {
       "kernelSource": {
-        "name": "Flashlmdd-DragonKernelSU",
-        "repo": "https://github.com/konanguyen/android_kernel_lge_sm8150",
-        "branch": "stock",
-        "device": "V500N",
-        "defconfig": "vendor/dragon_flash_defconfig"
+        "name": "X2KernelSU",
+        "repo": "https://github.com/konanguyen/kernel_realme_sm6150",
+        "branch": "topaz",
+        "device": "RealmeX2",
+        "defconfig": "X2_defconfig"
       },
       "withKernelSU": true,
       "toolchains": [
