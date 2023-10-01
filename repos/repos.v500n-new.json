@@ -2,10 +2,10 @@
     {
       "kernelSource": {
         "name": "flashlmdd",
-        "repo": "https://github.com/konanguyen/android_kernel_lge_sm8150",
-        "branch": "stock",
+        "repo": "https://github.com/konanguyen/msm-4.14",
+        "branch": "master",
         "device": "flashlmdd",
-        "defconfig": "vendor/dragon_flash_defconfig"
+        "defconfig": "vendor/flash_lao_com_defconfig"
       },
       "withKernelSU": true,
       "toolchains": [
