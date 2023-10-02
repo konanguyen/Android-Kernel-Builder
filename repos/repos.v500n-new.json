@@ -3,11 +3,11 @@
       "kernelSource": {
         "name": "flashlmdd",
         "repo": "https://github.com/konanguyen/android_kernel_lge_sm8150",
-        "branch": "master",
+        "branch": "stock",
         "device": "flashlmdd",
         "defconfig": "vendor/dragon_flash_defconfig"
       },
-      "withKernelSU": false,
+      "withKernelSU": true,
       "toolchains": [
         {
           "repo": "https://github.com/kdrag0n/proton-clang",
