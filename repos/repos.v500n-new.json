@@ -5,7 +5,7 @@
         "repo": "https://github.com/konanguyen/android_kernel_lge_sm8150",
         "branch": "stock",
         "device": "flashlmdd",
-        "defconfig": "vendor/dragon_flash_defconfig"
+        "defconfig": "vendor/dragon_mh2lm_defconfig"
       },
       "withKernelSU": true,
       "toolchains": [
