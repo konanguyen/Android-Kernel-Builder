@@ -2,8 +2,8 @@
     {
       "kernelSource": {
         "name": "flashlmdd",
-        "repo": "https://github.com/konanguyen/android_kernel_lge_sm8150",
-        "branch": "stock",
+        "repo": "https://github.com/hmtheboy154/android_kernel_lge_sm8150",
+        "branch": "stock_caf",
         "device": "flashlmdd",
         "defconfig": "vendor/dragon_flash_defconfig"
       },
