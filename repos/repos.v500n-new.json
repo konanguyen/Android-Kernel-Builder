@@ -5,7 +5,7 @@
         "repo": "https://github.com/konanguyen/android_kernel_lge_sm8150_aosp",
         "branch": "KSU",
         "device": "flashlmdd",
-        "defconfig": "vendor/dragon_flash_defconfig"
+        "defconfig": "vendor/aosp_flash_defconfig"
       },
       "withKernelSU": false,
       "toolchains": [
