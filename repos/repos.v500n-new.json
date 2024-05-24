@@ -7,7 +7,7 @@
         "device": "flashlmdd",
         "defconfig": "vendor/dragon_alpha_defconfig"
       },
-      "withKernelSU": true,
+      "withKernelSU": false,
       "toolchains": [
         {
           "repo": "https://github.com/kdrag0n/proton-clang",
