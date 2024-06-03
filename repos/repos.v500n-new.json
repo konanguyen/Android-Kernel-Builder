@@ -4,8 +4,8 @@
         "name": "flashlmdd",
         "repo": "https://github.com/konanguyen/android_kernel_lge_sm8150",
         "branch": "stock",
-        "device": "G8",
-        "defconfig": "vendor/dragon_alpha_defconfig"
+        "device": "V50",
+        "defconfig": "vendor/dragon_flash_defconfig"
       },
       "withKernelSU": true,
       "toolchains": [
