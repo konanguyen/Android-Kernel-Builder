@@ -5,7 +5,7 @@
         "repo": "https://github.com/konanguyen/android_kernel_lge_sm8150",
         "branch": "main",
         "device": "G8",
-        "defconfig": "vendor/draagon_alpha_defconfig"
+        "defconfig": "vendor/dragon_alpha_defconfig"
       },
       "withKernelSU": false,
       "toolchains": [
