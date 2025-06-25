@@ -6,7 +6,7 @@
         "device": "V50",
         "defconfig": "vendor/dragon_alpha_defconfig"
       },
-    "withKernelSU": false,
+    "withKernelSU": true,
       "toolchains": [
         {
           "repo": "https://github.com/kdrag0n/proton-clang",
@@ -18,7 +18,6 @@
       "params": {
         "ARCH": "arm64",
         "CC": "proton-clang/bin/clang",
-        "externalCommand": {
           "CLANG_TRIPLE": "aarch64-linux-gnu-",
           "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
           "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
@@ -33,6 +32,5 @@
           "LDGOLD": "proton-clang/bin/aarch64-linux-gnu-ld.gold",
           "LLVM_AR": "proton-clang/bin/llvm-ar",
           "LLVM_DIS": "proton-clang/bin/llvm-dis"
-        }
   }
 ]
