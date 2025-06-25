@@ -10,7 +10,7 @@ on:
 jobs:
   Set-repos:
     name: "🐂 Parse repos.json"
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     outputs:
       repos: ${{ steps.generate-matrix.outputs.repos }}
     steps:
@@ -51,7 +51,6 @@ jobs:
 
       - name: "⭐ Install prerequisites"
         run: |
-          sudo add-apt-repository universe
           sudo apt-get update
           sudo apt-get install -y build-essential bc curl git zip ftp gcc-aarch64-linux-gnu gcc-arm-linux-gnueabi libssl-dev lftp zstd wget libfl-dev python2 python3 libarchive-tools
 
