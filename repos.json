@@ -6,7 +6,7 @@
         "device": "V50",
         "defconfig": "vendor/dragon_alpha_defconfig"
       },
-    "withKernelSU": true,
+    "withKernelSU": false,
     "toolchains": [
       {
         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
